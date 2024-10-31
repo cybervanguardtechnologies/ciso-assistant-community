@@ -78,7 +78,7 @@ Alternatively, once you have _Docker_ and _Docker-compose_ installed, on your wo
 clone the repo:
 
 ```
-git clone https://github.com/intuitem/ciso-assistant-community.git
+git clone https://github.com/cybervanguardtechnologies/ciso-assistant-community.git
 ```
 
 and run the starter script
@@ -171,6 +171,7 @@ Check out the online documentation on <https://intuitem.gitbook.io/ciso-assistan
 62. Mindeststandard-des-BSI-zur-Nutzung-externer-Cloud-Dienste (Version 2.1) 🇩🇪
 63. Formulaire d'évaluation de la maturité - niveau fondamental (DGA) 🇫🇷
 64. Annex to the Implementing Regulation of NIS 2 on Technical and methodological requirements 🇪🇺
+65. Lei Geral de Proteção de Dados (LGPD) 🇺🇸
 
 ### Community contributions
 
@@ -196,8 +197,6 @@ Checkout the [library](/backend/library/libraries/) and [tools](/tools/) for the
 
 - NIST 800-82
 
-- and much more: just ask on [Discord](https://discord.gg/qvkaMdQ8da). If it's an open standard, we'll do it for you, _free of charge_ 😉
-
 ## Add your own library
 
 A library can be a framework, a catalog of threats or reference controls, and even a custom risk matrix.
@@ -207,14 +206,6 @@ Take a look at the `tools` directory and its dedicated readme. The `convert_libr
 You can also find some specific converters in the tools directory (e.g. for CIS or CCM Controls).
 
 There is also a tool to facilitate the creation of mappings, called `prepare_mapping.py` that will create an Excel file based on two framework libraries in yaml. Once properly filled, this Excel file can be processed by the `convert_library.py` tool to get the resulting mapping library.
-
-## Community
-
-Join our [open Discord community](https://discord.gg/qvkaMdQ8da) to interact with the team and other GRC experts.
-
-## Testing the cloud version
-
-> The fastest and easiest way to get started is through the [free trial of cloud instance available here](https://intuitem.com/trial).
 
 ## Testing locally 🚀
 
@@ -227,7 +218,7 @@ Make sure you have a recent version of docker (>= 25.0).
 1. Clone the repository
 
 ```sh
-git clone https://github.com/intuitem/ciso-assistant-community.git
+git clone https://github.com/cybervanguardtechnologies/ciso-assistant-community.git
 cd ciso-assistant-community
 ```
 
@@ -273,7 +264,7 @@ For docker setup on a remote server or hypervisor, checkout the [specific instru
 1. Clone the repository.
 
 ```sh
-git clone git@github.com:intuitem/ciso-assistant-community.git
+git clone git@github.com:cybervanguardtechnologies/ciso-assistant-community.git
 cd ciso-assistant-community
 ```
 
